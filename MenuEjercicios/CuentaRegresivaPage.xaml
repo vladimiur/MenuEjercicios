@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenuEjercicios.CuentaRegresivaPage"
+             Title="CuentaRegresivaPage">
+    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+       
+        <Image Source="cuenta.gif" 
+              IsAnimationPlaying="True"
+               WidthRequest="300"   
+                HeightRequest="300"
+               />
+ 
+        <Label 
+            Text="Cuenta Regreciva"
+            FontSize="20"
+            HorizontalOptions="Center"
+            />
+        <Label 
+            HorizontalOptions="Center"
+            Margin="40"
+            FontSize="20"
+            x:Name="contadorLabel"
+            />
+        <Button 
+            Text="Activar"
+            BackgroundColor="DarkBlue"
+            TextColor="White"
+            WidthRequest="150"
+            />
+        
+    </VerticalStackLayout>
+</ContentPage>

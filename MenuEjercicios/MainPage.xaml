@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenuEjercicios.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <ImageButton 
+                Source="dos.png" 
+                WidthRequest="500"
+                HeightRequest="100"
+                HorizontalOptions="Start"
+                Padding="5,5,160,5"
+                CornerRadius="7"
+                Margin="10"
+                BackgroundColor="Pink"
+                Clicked="ImageButton_Clicked"
+                />
+            
+            <ImageButton
+                Source="reloj.png" 
+                WidthRequest="500"
+                HeightRequest="100"
+                HorizontalOptions="Start"
+                Padding="5,5,160,5"
+                CornerRadius="7"
+                Margin="10"
+                BackgroundColor="PaleVioletRed"
+                Clicked="ImageButton_Clicked_1"
+                />
+
+            <ImageButton 
+                Source="numeros.png" 
+                WidthRequest="500"
+                HeightRequest="100"
+                HorizontalOptions="Start"
+                Padding="5,5,160,5"
+                CornerRadius="7"
+                Margin="10"
+                BackgroundColor="DodgerBlue"
+                Clicked="ImageButton_Clicked_2"
+                />
+
+            <ImageButton  
+                Source="sueldo.png"                               
+                WidthRequest="500"
+                HeightRequest="100"
+                HorizontalOptions="Start"
+                Padding="5,5,160,5"
+                CornerRadius="7"
+                Margin="10"
+                BackgroundColor="Bisque"
+                Clicked="ImageButton_Clicked_3"
+                />
+
+            <ImageButton 
+                Source="tutu.png" 
+                WidthRequest="500"
+                HeightRequest="100"
+                HorizontalOptions="Start"
+                Padding="5,5,160,5"
+                CornerRadius="7"
+                Margin="10"
+                BackgroundColor="#28C2D1"
+                Clicked="ImageButton_Clicked_4"
+                />
+
+            <ImageButton 
+                Source="mexi.png" 
+                WidthRequest="500"
+                HeightRequest="100"
+                HorizontalOptions="Start"
+                Padding="5,5,160,5"
+                CornerRadius="7"
+                Margin="10"
+                BackgroundColor="#7BDDEF"
+                Clicked="ImageButton_Clicked_5"
+                />
+
+            
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

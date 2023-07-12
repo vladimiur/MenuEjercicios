@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MenuEjercicios.Pesos"
+             Title="Pesos">
+    <VerticalStackLayout>
+        
+            
+             <!-- Adjuntamos nuestro gif y definimos su ancho y su alto con las propiedades correspondientes -->
+
+            <Image Source="dolares.gif"
+                   
+                IsAnimationPlaying ="True"
+                   
+                WidthRequest="150"   
+                   
+                HeightRequest="150"/>
+
+            <!-- Agregamos dos label con sus propiedades correspondientes -->
+
+            <Label FontSize="30" HorizontalOptions="Center" Padding="10,10,10,10" Text="Bienvenid@"/>
+
+            <Label FontSize="15" HorizontalOptions="Center" Padding="10,10,10,10" Text="Ingrese la cantidad de pesos"/>
+
+            <!-- Creamos un Entry para ingresar la cantidad de pesos -->
+
+            <Entry Keyboard="Numeric" Margin="10,10,10,10" Placeholder="Pesos" x:Name="peso" />
+
+            <!-- Agregamos un button con su evento click -->
+
+            <Button Margin="10,10,10,10" Text="Convertir" Clicked="Button_Clicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>
